@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Poppins:wght@400;600&display=swap");
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: "Montserrat", "Poppins", "sans-serif";
+    margin: 0 ;
+    background-color: #7BDAF3;
+    display: flex;
+    flex-wrap: wrap;
+}
+.add{
+    background: #9ec862;
+    border: none;
+    border-radius:3px;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    top: 1rem;
+    right: 1rem;
+    position: fixed;
+    cursor: pointer;
+}
+.note{
+    background-color: #fff;
+    box-shadow: 0 0 10px 4px rgba(0, 0, 0, 0.1);
+    height: 400px;
+    width: 400px;
+    margin: 20px;
+}
+.note .tools{
+    background-color: #9ec862;
+    display: flex;
+    justify-content: flex-end;
+    padding:0.5rem;
+}
+.note .tools button{
+    border:none;
+    background-color: transparent;
+    color: white;
+    font-size: 1rem;
+    margin-left: 0.5rem;
+    cursor: pointer;
+}
+.note .main{
+    height: 400px;
+    width: 100%;
+    background: white;
+    overflow: hidden;
+}
+.note textarea{
+    height: 400px;
+    width: 100%;
+    font-family: inherit;
+    outline: none;
+    border: none;
+    font-size:1.2rem;
+}
+
+.note .hidden{
+    display: none;
+}
